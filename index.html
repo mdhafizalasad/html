@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Courses</title>
+    <style>
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .container label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .container input[type="text"],
+        .container input[type="email"],
+        .container input[type="password"],
+        .container input[type="date"],
+        .container input[type="tel"],
+        .container select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .container input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .container input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+
+
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+
+
+
+    </style>
+
+</head>
+<body>
+    <h2 style="text-align:center;">Class Routine</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>09:00 AM - 10:00 AM</td>
+                <td>Mathematics</td>
+                <td>Physics</td>
+                <td>Mathematics</td>
+                <td>Chemistry</td>
+                <td>Free Period</td>
+            </tr>
+            <tr>
+                <td>10:00 AM - 11:00 AM</td>
+                <td>Chemistry</td>
+                <td>Mathematics</td>
+                <td>Physics</td>
+                <td>Mathematics</td>
+                <td>Physics</td>
+            </tr>
+            <tr>
+                <td>11:00 AM - 12:00 PM</td>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td>Computer Science</td>
+                <td>English</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr>
+                <td>12:00 PM - 01:00 PM</td>
+                <td>Break</td>
+                <td>Break</td>
+                <td>Break</td>
+                <td>Break</td>
+                <td>Break</td>
+            </tr>
+            <tr>
+                <td>01:00 PM - 02:00 PM</td>
+                <td>Computer Science</td>
+                <td>English</td>
+                <td>Chemistry</td>
+                <td>Computer Science</td>
+                <td>Mathematics</td>
+            </tr>
+            <tr>
+                <td>02:00 PM - 03:00 PM</td>
+                <td>Physics</td>
+                <td>Computer Science</td>
+                <td>English</td>
+                <td>Physics</td>
+                <td>Chemistry</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="/submit_registration" method="post">
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your first name.." required>
+    
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name.." required>
+    
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your email.." required>
+    
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Your password.." required>
+    
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+    
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+    
+            <label for="gender">Gender</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+    
+            <input type="submit" value="Register">
+        </form>
+        
+    </div>
+    
+   <table >
+    <tr>
+        <td width="50%" style="vertical-align: top;  text-align: left;"> <h1>This is an H1 Heading</h1>
+            <p>This is a paragraph under the H1 heading.</p>
+        
+            <h2>This is an H2 Heading</h2>
+            <p>This is a paragraph under the H2 heading.</p>
+        
+            <h3>This is an H3 Heading</h3>
+            <p>This is a paragraph under the H3 heading.</p>
+        
+            <h4>This is an H4 Heading</h4>
+            <p>This is a paragraph under the H4 heading.</p>
+        
+            <h5>This is an H5 Heading</h5>
+            <p>This is a paragraph under the H5 heading.</p>
+        
+            <h6>This is an H6 Heading</h6>
+            <p>This is a paragraph under the H6 heading.</p>
+        </td>
+        <td style="vertical-align: top;  text-align: left;">
+            <p style="text-align: justify;"><h3>Bold:</h3> <b>amet consectetur adipisicing elit.</b> </p>
+            <p><h3>Italic:</h3> <i>Nam autem sunt doloribus iure nulla.</i> </p>
+            <p><h3>Underline: </h3><u>consequatur illum sequi impedit animi?</u></p>
+           
+            <h3>Formula:</h3>
+            <p>(a+b)<sup>2</sup> = a<sup>2</sup>+ 2ab + b<sup>2</sup></p>
+
+            <p>log<sub>10</sub> </p>
+
+            <h3 style="margin-left: 100px;">Audio</h3>
+
+            <p><audio src="./Audio/sample.mp3" height="500px" controls></audio></p>
+        </td>
+        <tr>
+        <td style="vertical-align: top;  text-align: left;">
+            <img src="./images/cal.jpeg" height="500px"></td>
+        <td style="vertical-align: top;  text-align: left;">
+            <h2 style="text-align:center;">Video</h2>
+            <video src="./video/sample.mp4" height="400px" controls><td>
+    </tr>
+    </tr>
+   </table>
+
+</body>
+</html>
